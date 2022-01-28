@@ -28,9 +28,82 @@ html, body {
 
 .Landing_section_blue {
     background-color: #002460;
+    color: white;
 }
 
 .Section {
     width: 940px;
-    background-color: red;
+}
+
+
+.Section_p-56 {
+    padding: 56px;
+}
+
+
+.Section_p-72{
+    padding: 72px;
+}
+
+
+
+.Section__title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #002460;
+}
+
+
+.Section__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+}
+
+
+
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Menu__link{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 24px;
+    opacity: 0.1s;
+    transition: opacity: .25S;
+    cursor: pointer;
+}
+
+
+.Menu__link:hover{
+    opacity: 1;
+}
+
+
+.Slider__text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+.Slider__button{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 5px;
+    background-color: white;
+    color: #002460;
+    padding: 24px;
+    border-radius: 5px;
 }
