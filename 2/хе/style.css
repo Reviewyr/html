@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #0249c2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Landing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.Landing__section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing__section_blue {
+    background-color: #0249c2;
+    color: #ffffff;
+}
+
+.Section {
+    padding: 56px 0;
+    width: 940px;
+}
+
+.Section__title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Section__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.Header__logotype {}
+
+.Header__menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Menu__link {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 24px;
+    cursor: pointer;
+    opacity: .5;
+    transition: opacity .25s;
+    color: white;
+    text-decoration: none;
+}
+
+.Menu__link:hover {
+    opacity: 1;
+}
+
+.Section__slider {
+    margin-top: 56px;
+}
+
+.Slider__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.Slider__info {}
+
+.Slider__text {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.Slider__button {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 16px 24px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #0249c2;
+}
+
+.Slider__image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Landing__section_image {
+    background-image: url('images/images/background_image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.Content__text {
+    font-size: 18px;
+}
+
+.Content__list {
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: flex-start ;
+}
+
+.List__element {}
+
+.Element__img {
+    margin-bottom: 12px;
+}
+
+.Element__img img {
+    border-radius: 20px;
+}
+
+.Element__title {
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 0 12px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.Element__info {
+    width: 100%;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+.Content__map {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.Map__info {}
+
+.Info__item {
+    margin-bottom: 24px;
+}
+
+.Item__title {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.Item__info {}
+ 
+.Map__image {
+    display: flex;
+    justify-content: flex-end;
+}
+.Content__table{}
+
+.Table {    
+    width: 100%;
+    text-align: left;
+    border: 2px solid #000;
+    border-collapse: collapse
+}
+
+.Table__tr {}
+
+.Table__th {
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 900;
+    border: 2px solid #000;
+}
+
+.Table__td {
+    padding: 24px;
+    border: 2px solid #000;
+}
+
+.Content__form {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.Form__input {
+    border: 2px solid #0249c2;
+     padding: 20px 24px ;
+     font-size: 20px;
+     width: 100%;
+     margin-right: 24px;
+    }
+
+.Form__button {background-color: #0249c2;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    padding: 20px 24px ;
+    cursor: pointer;
+}
+
+.Section__contentcart {
+    margin: 32px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+}
+
+.Section__content {
+    margin: 32px;
+}
