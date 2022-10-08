@@ -1,0 +1,45 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.hhh{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ flex-wrap: wrap;
+}
+ .moon{
+     width: 900px;
+     height: 400px;
+     margin-left: -1000px;
+     margin-bottom: 600px;
+
+ }
+ #moon{
+     width: 500px;
+     height: 500px;
+ }
+
+ .star{
+    width: 100px;
+    height:100px;
+    margin-left: 100px;
+    margin-bottom:100px ;
+ }
+ #star{
+    width: 500px;
+    height: 500px;
+ }
